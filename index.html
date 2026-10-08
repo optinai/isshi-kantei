@@ -1,0 +1,578 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0E0B22">
+<title>いっしーの本鑑定｜無料鑑定を受け取ったあなたへ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;600;700;800&family=Noto+Sans+JP:wght@400;500;700&family=Cormorant+Garamond:wght@300;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/lp.css?v=202609102219">
+<link rel="stylesheet" href="assets/theme-isshi.css?v=202610080100">
+</head>
+<!-- 限定料金：初回閲覧から72時間（無料鑑定の受け取り＝LP初見とみなす）。運用側でSTORESの価格を戻す前提 -->
+<!-- 全体運気版：お金／仕事／健康／家族／人との縁を「全部つながってる」と視る統合版（旧A版の恋愛軸・B版のお金健康家族軸を統合） -->
+<body data-deadline-key="isshi_kantei" data-deadline-hours="72">
+
+<div class="prog" aria-hidden="true"><i id="progbar"></i></div>
+
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <!-- IMG差し替え①：ヒーロー画像（img/ に配置後、src を差し替え） -->
+  <div class="hero-person">
+    <img src="img/i_hero.jpg" alt="いっしーの世界観イメージ" fetchpriority="high" onerror="this.closest('.ph,.ph-full,.thumb,.shot,.hero-person')?.style.setProperty('display','none')">
+    <div class="hero-flare" aria-hidden="true"></div>
+  </div>
+  <div class="particles" aria-hidden="true" id="particles"></div>
+  <div class="hero-copy">
+    <div class="lead rv">海外37カ国で占術修行を積んだ、<br>いっしーの本鑑定</div>
+    <h1 class="lines"><span class="ln">ひとつの悩み</span><br><span class="ln">じゃなくて、</span><br><span class="ln">人生まるごとの</span><br><span class="ln gg">全体運気を視るよ</span></h1>
+    <div class="tag rv">無料鑑定を受け取ったあなたへ</div>
+    <div class="scrollcue rv"><span class="lat">SCROLL</span><i></i></div>
+  </div>
+</header>
+
+<!-- 3日間限定料金（冒頭） -->
+<div class="limited">
+  <div class="limbox rv">
+    <span class="lt">3日間限定</span>
+    <div class="lh">無料鑑定を受け取った人だけ、<br><span class="g">3日間だけの料金</span>だよ</div>
+    <div class="ld">いっしーの本鑑定　通常 19,800円 →　<b style="color:var(--gold-hi)">9,999円</b><br>羅針の章　通常 7,980円 →　<b style="color:var(--gold-hi)">4,980円</b></div>
+    <div class="cd" aria-label="残り時間">
+      <div class="u"><b data-d>-</b><i>日</i></div><div class="sep">:</div>
+      <div class="u"><b data-h>--</b><i>時間</i></div><div class="sep">:</div>
+      <div class="u"><b data-m>--</b><i>分</i></div><div class="sep">:</div>
+      <div class="u s"><b data-s>--</b><i>秒</i></div>
+    </div>
+    <div class="cd-expired">この料金での案内は終了したよ。<br>ほしい人は、LINEにそのまま送ってね。</div>
+    <div class="ln2">3日間を過ぎると、通常料金に戻るよ</div>
+    <div class="stock">
+      <div class="sl"><span>今月受けられる鑑定枠</span><b>残りわずか</b></div>
+      <div class="bar"><i style="--fill:93%"></i></div>
+      <div class="sn">1人ずつ視ているから、枠が埋まり次第、順番待ちになるよ</div>
+    </div>
+  </div>
+</div>
+
+<a class="minicta rv" href="#item" style="margin-top:26px">限定料金で鑑定を見る<span class="s">お申し込みは1分</span></a>
+
+
+<!-- ============ I 手が止まった意味／全部つながっている ============ -->
+<section class="s-ai">
+  <div class="wrap">
+    <div class="chapno">I</div>
+    <div class="eyebrow lat">What you felt</div>
+    <h2 class="lines"><span class="ln">あの感覚には、</span><br><span class="ln">意味があるんだよ</span></h2>
+    <div class="gline"></div>
+
+    <div class="stag">
+      <p class="lead-p">あの鑑定を読んでいる時、どこかで<span class="ew">手が止まらなかった？</span></p>
+      <p>胸のあたりが、ざわっとした。<br>「あ、それだ」と思った。<br>ちょっと怖いけど、本当はずっと分かってた気がした。</p>
+    </div>
+    <div class="big rv-b">それ、<br><span class="wipe">偶然じゃないんだよ。</span></div>
+
+    <div class="quote stag">
+      <p>手が止まった場所は、<br>あなたの心がずっと<br>辛かった場所。</p>
+      <p>胸がざわついた場所は、<br>誰にも話してこなかった<br>本当の気持ちが触れた場所なんだ。</p>
+    </div>
+
+    <div class="stag">
+      <p>毎月の支払いのこと。仕事のこと。体の不調のこと。親や子どものこと。あの人との距離のこと。</p>
+      <p>どれもひとつずつ、ひとりで抱えてきたよね。<br>でもね、<span class="ew">それ、別々の悩みに見えて、ぜんぶ同じ流れの中にあるんだよ。</span></p>
+    </div>
+
+    <div class="big rv-b">どこか1つじゃない。<br><span class="wipe">ぜんぶ、つながってるんだ。</span></div>
+
+    <div class="stag">
+      <p class="lead-p">人生の運気は、5つの領域でできてる。</p>
+      <p>当てはまるところ、ひとつでもあったら、<br>そこから他の領域にも波が届いてるよ。</p>
+    </div>
+
+    <ul class="chk rv">
+      <li><strong>お金</strong>　返済や毎月の支払いのことが、頭から離れない</li>
+      <li><strong>仕事</strong>　頑張っても認められない、もう疲れた</li>
+      <li><strong>健康</strong>　体が重い、疲れが抜けない、眠りが浅い</li>
+      <li><strong>家族</strong>　親や子ども、パートナーのことで心配が尽きない</li>
+      <li><strong>人との縁</strong>　恋も友だちも職場も、人との距離がしんどい</li>
+    </ul>
+
+    <div class="stag">
+      <p>お金の心配をしてると、体まで重くなる。<br>体が重いと、仕事も家族も、余裕をもって向き合えなくなる。<br>家族のことで気が張ってると、人と会うのが辛くなって、縁まで遠くなる。</p>
+      <p><strong>だから、どれか1つだけ切り離して直そうとしても、いつの間にか元に戻っちゃうんだ。</strong></p>
+      <p>私が視るのは、悩みじゃなくて<span class="ew">人生全体の運気の流れ</span>。<br>どこで詰まってるのか。そこから、何がつながってるのか。それを、まるごと視ていくよ。</p>
+    </div>
+
+    <div class="rv">
+      <p>「ちょっと怖いけど、わかる」と思った場所。<br><strong>そこはもう、動き出す準備ができてるよ。</strong></p>
+    </div>
+
+    <!-- 鑑定人数などの実績値は正本に無いため、.stat は置かない（37カ国を権威性として本文で使用） -->
+    <div class="vline" aria-hidden="true"></div>
+
+    <a class="minicta rv" href="#item">その先を、視にいく<span class="s">本鑑定の内容を見る</span></a>
+  </div>
+</section>
+
+<div class="band" aria-hidden="true"></div>
+
+<!-- ============ II 当てものではない ============ -->
+<section class="s-dark">
+  <div class="wrap">
+    <div class="chapno">II</div>
+    <div class="eyebrow lat">Not fortune-telling</div>
+    <h2 class="lines"><span class="ln">鑑定は、</span><br><span class="ln">当てものじゃないんだ</span></h2>
+    <div class="gline"></div>
+
+    <div class="stag">
+      <p class="lead-p">未来を言い当てて、すごいでしょって言いたいわけじゃない。<br>怖いことを言って、言う通りに動かしたいわけでもない。</p>
+      <p>私が届けたいのは、<span class="ew">あなたが自分を取り戻すための言葉</span>だよ。</p>
+    </div>
+
+    <!-- IMG差し替え②：旅先・聖地などの横長ワイド画像（4:5 で表示） -->
+    <div class="ph-full px rv-s">
+      <img src="img/torii.jpg" alt="旅先の風景" loading="lazy" decoding="async" onerror="this.closest('.ph,.ph-full,.thumb,.shot,.hero-person')?.style.setProperty('display','none')">
+      <div class="ov rv-b">頑張ってきた人が、<br>自分を責めなくていいんだよ。</div>
+    </div>
+
+    <div class="stag">
+      <p>海外37カ国で占術修行を積んで、世界中の占い師や祈祷師に会ってきた。<br>そこで気づいたことがあるんだ。</p>
+      <p>人を救う占いと、人を縛る占いがある。<br><span class="ew">不安を煽って、また来させる占いは、私は絶対にしない。</span></p>
+      <p>お金のこと、仕事のこと、体のこと、家族のこと、人との関係。<br>どの悩みを聞いていても、同じ言葉に何度も出会うんだよ。</p>
+      <p><span class="shu">「私のやりくりが下手だからだ」</span><br><span class="shu">「私が頑張れば、家族は楽なはずだ」</span><br><span class="shu">「私に魅力がないからだ」</span><br><span class="shu">「もう、自分のことは後回しにするしかない」</span></p>
+    </div>
+    <div class="big rv-b">違うよ。</div>
+    <div class="rv">
+      <p><strong>自分を責める声が大きくなって、本当の自分の声が聞こえなくなってるだけ。</strong></p>
+    </div>
+
+    <a class="minicta rv" href="#item">自分の声を、取り戻す<span class="s">3日間限定 4,980円 / 9,999円</span></a>
+  </div>
+</section>
+
+<!-- ============ III 無料と本鑑定の差 ============ -->
+<section class="s-ai-r">
+  <div class="wrap">
+    <div class="chapno">III</div>
+    <div class="eyebrow lat">The difference</div>
+    <h2 class="lines"><span class="ln">無料鑑定で</span><br><span class="ln">視えたもの、</span><br><span class="ln">視えなかったもの</span></h2>
+    <div class="gline"></div>
+
+    <div class="stag">
+      <p class="lead-p">無料鑑定で伝えたのは、<span class="ew">今あなたのどこが詰まっているか</span>。それだけなんだ。</p>
+      <p>それでも、心が軽くなった人は多いよ。</p>
+      <p>でも、ひとつだけ。</p>
+      <p>「軽くなったのに、なぜかまた戻っちゃう」<br>そう感じたこと、ない？</p>
+      <p>逆に、無料鑑定がピンと来なかった人。それも同じだよ。<br>表層しか視ていないから、まだ本当の場所に届いてないだけ。</p>
+      <p>「どこから手をつけていいのか、自分でも分からない」——そう書く人も、本当に多いんだ。<br>それも、詰まりのしわざだよ。</p>
+    </div>
+
+    <div class="big rv-b"><span class="s">楽になることと、</span>現実が変わることは、<br><span class="wipe">別なんだ。</span></div>
+
+    <div class="stag">
+      <p><span class="mk">当たってた。</span><br><span class="mk">胸が軽くなった。</span><br><span class="mk">ちょっと、泣きそうになった。</span></p>
+      <p>そこで終わると、<strong>また同じ日常に戻りやすいんだよ。</strong></p>
+      <p>責任感のある人ほど、お金の重さも、体の無理も、家族のことも、人との距離も、黙って引き受けちゃう。<br>複数の悩みをつないでる<span class="ew">根っこのパターン</span>は、気づいただけでは変わりきらないんだ。</p>
+    </div>
+
+    <div class="depth stag">
+      <div class="band-label f">無料鑑定で視えたところ</div>
+      <div class="layer free">
+        <span class="tag">表層</span>
+        <div class="nm">今、どこが詰まっているか</div>
+        <div class="sub">お金・仕事・健康・家族・人との縁。いま滞ってる場所。</div>
+      </div>
+      <div class="layer free">
+        <span class="tag">その下</span>
+        <div class="nm">何に苦しんでいるか</div>
+        <div class="sub">言葉にできてる悩み。</div>
+      </div>
+      <div class="band-label d">ここから先が、本鑑定</div>
+      <div class="layer deep">
+        <span class="tag">深層</span>
+        <div class="nm">なぜ、そこが詰まったのか</div>
+        <div class="sub">出来事の理由。今この時期に来た意味。</div>
+      </div>
+      <div class="layer deep">
+        <span class="tag">根っこ</span>
+        <div class="nm">複数の悩みをつないでいる根っこ</div>
+        <div class="sub">お金も体も家族も縁も、同じところで滞らせてる仕組み。</div>
+      </div>
+      <div class="layer deep">
+        <span class="tag">魂</span>
+        <div class="nm">あなたが本来持っている流れ</div>
+        <div class="sub">まだ使えてない力。ブレーキになってるもの。</div>
+      </div>
+      <div class="layer deep">
+        <span class="tag">1年</span>
+        <div class="nm">これから1年の運気の流れ</div>
+        <div class="sub">どの領域に、いつ、追い風が来るか。</div>
+      </div>
+      <div class="layer deep">
+        <span class="tag">順番</span>
+        <div class="nm">どの順番で整えるか</div>
+        <div class="sub">5つの領域の、最初の1歩と今やるべきこと。</div>
+      </div>
+      <div class="cap2">同じ人生を、7つの層で視ています</div>
+    </div>
+
+    <div class="quote stag">
+      <p>無料鑑定は、<br>扉の前に立つためのもの。</p>
+      <p>本鑑定は、その扉を開けて、<br>人生全体の流れを動かしていくためのもの。</p>
+    </div>
+
+    <a class="cta rv" href="#item">
+      <span class="arrow">▼</span>
+      <span class="btn">本鑑定を受け取る</span>
+      <span class="sub">▶ 2つの鑑定から選ぶ</span>
+      <span class="micro">3日間限定料金・お申し込みは1分</span>
+    </a>
+  </div>
+</section>
+
+<div class="wrap"><div class="growline"></div></div>
+
+<!-- ============ IV 迷っている人へ ============ -->
+<section class="s-dark">
+  <div class="wrap">
+    <div class="chapno">IV</div>
+    <div class="eyebrow lat">If you hesitate</div>
+    <h2 class="lines"><span class="ln">迷ってる人へ</span></h2>
+    <div class="gline"></div>
+
+    <div class="stag">
+      <p class="lead-p">「またお金を使って、何も変わらなかったらどうしよう」</p>
+      <p>その気持ち、自然だよ。<br>毎月の支払いがある中で、占いにお金を使うのは、勇気がいるよね。</p>
+    </div>
+
+    <ul class="chk rv">
+      <li>今まで占いにお金を使って、何も変わらなかったことがある</li>
+      <li>自分のために使うお金より、返済や家族のことが先になってしまう</li>
+      <li>期待した分だけ、あとで落ち込むのが怖い</li>
+      <li>本当に視えてるのか、まだ半信半疑</li>
+      <li>知ってしまうのが、ちょっと怖い</li>
+    </ul>
+
+    <!-- IMG差し替え③：静かな窓辺・光などのワイド画像（16:10） -->
+    <div class="ph wide px rv-s">
+      <img src="img/window_01.jpg" alt="静かな光" loading="lazy" decoding="async" onerror="this.closest('.ph,.ph-full,.thumb,.shot,.hero-person')?.style.setProperty('display','none')">
+    </div>
+
+    <div class="stag">
+      <p>それ、<span class="ew">弱いからじゃないんだよ。</span></p>
+      <p><strong>何度も期待して、何度も自分を責めながら、毎日を守ってきたからだよ。</strong></p>
+      <p>不安を煽って、また来ないと心配になるような鑑定は、しないから安心してね。</p>
+      <p>急かさないよ。<br>ただ、今届いてるサインを、毎日の忙しさに埋もれさせないでほしいだけ。</p>
+    </div>
+
+    <a class="minicta rv" href="#item">どっちの鑑定が合うか、見てみる<span class="s">選び方の目安があるよ</span></a>
+  </div>
+</section>
+
+<!-- ============ V 商品 ============ -->
+<section class="s-ai" id="item" data-sticky-hide>
+  <div class="wrap">
+    <div class="chapno">V</div>
+    <div class="eyebrow lat">Two ways</div>
+    <h2 class="lines"><span class="ln">2つの鑑定</span></h2>
+    <div class="gline"></div>
+
+    <div class="stag">
+      <p class="tc">どっちを選んでも、<br>1人ずつ、丁寧に視ていくよ。</p>
+      <p class="tc">違うのは、<span class="ew">どこまで深く視るか</span>だけ。</p>
+    </div>
+
+    <div class="crowd hot rv">
+      <span class="dot"></span>
+      <div>
+        <div class="ct">ただいま、とても混み合っています</div>
+        無料鑑定を受け取った人からの申し込みが続いていて、<b>今月の枠は残りわずか</b>だよ。1人ずつ視ているから、埋まり次第、順番待ちになるんだ。
+        <div class="stock">
+          <div class="sl"><span>今月の鑑定枠</span><b>売り切れ間近</b></div>
+          <div class="bar"><i style="--fill:93%"></i></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="vs stag">
+      <div class="r hd"><div class="c">羅針の章</div><div class="c">いっしーの本鑑定</div></div>
+      <div class="r pr"><div class="c"><span class="v">4,980</span>円</div><div class="c"><span class="v">9,999</span>円</div></div>
+      <div class="r"><div class="c">今どこが詰まっているか</div><div class="c">今どこが詰まっているか</div></div>
+      <div class="r"><div class="c">整える順番</div><div class="c">整える順番</div></div>
+      <div class="r"><div class="c dash">—</div><div class="c tick">なぜ詰まったのか</div></div>
+      <div class="r"><div class="c dash">—</div><div class="c tick">悩みをつなぐ根っこ</div></div>
+      <div class="r"><div class="c dash">—</div><div class="c tick">これから1年の運気の流れ</div></div>
+      <div class="r"><div class="c dash">—</div><div class="c tick">いっしーからのメッセージ</div></div>
+      <div class="r"><div class="c">今を軽くしたい人</div><div class="c">根っこから整えたい人</div></div>
+    </div>
+
+    <!-- 羅針の章（安い方） -->
+    <div class="item rv">
+      <!-- IMG差し替え④：羅針の章 サムネ（正方形 1:1） -->
+      <div class="thumb"><img src="img/moon_01.jpg" alt="羅針の章" loading="lazy" decoding="async" onerror="this.closest('.ph,.ph-full,.thumb,.shot,.hero-person')?.style.setProperty('display','none')"></div>
+      <div class="pname">羅針の章</div>
+      <div class="pr-stage">
+        <div class="was">通常価格 <s>7,980円</s></div>
+        <div class="nanto">3日間限定で、なんと</div>
+        <div class="price"><span class="num-gold">4,980</span><small>円</small></div>
+        <span class="off"><b>3,000</b>円お得</span>
+      </div>
+      <div class="goal">迷ってる今に、<br>針を合わせるところまで</div>
+      <p>お金、仕事、健康、家族、人との縁。心配が重なってる今、どこが詰まっていて、何から整えればいいのかを視ていくよ。</p>
+      <ul>
+        <li>今のあなたの全体運気に起きてること</li>
+        <li>心配が重なってる本当の場所</li>
+        <li>整える順番</li>
+      </ul>
+      <p class="honest">今のしんどさを、まず軽くしたい人へ。</p>
+      <a class="pbtn" href="https://pmsdqb4c2p0emj0yagvc.stores.jp/items/692a89608e735ff58f254b47" target="_blank" rel="noopener">羅針の章を受け取る<span class="s">限定料金 4,980円</span></a>
+    </div>
+
+    <!-- いっしーの本鑑定（推奨） -->
+    <div class="item rec">
+      <div class="badge">迷ってるなら、こっちだよ</div>
+      <!-- IMG差し替え⑤：いっしーの本鑑定 サムネ（正方形 1:1） -->
+      <div class="thumb"><img src="img/thumb_honkantei.jpg" alt="いっしーの本鑑定" loading="lazy" decoding="async" onerror="this.closest('.ph,.ph-full,.thumb,.shot,.hero-person')?.style.setProperty('display','none')"></div>
+      <div class="pname">いっしーの本鑑定</div>
+      <div class="pr-stage">
+        <div class="was">通常価格 <s>19,800円</s></div>
+        <div class="nanto">3日間限定で、なんと</div>
+        <div class="price"><span class="num-gold">9,999</span><small>円</small></div>
+        <span class="off"><b>9,801</b>円お得</span>
+      </div>
+      <div class="goal">全体運気を、<br>根っこまで</div>
+      <p>今どこが詰まってるかだけじゃなく、<strong>なぜそこが詰まったのか</strong>、そして複数の悩みがどうつながってるのかを、深いところから視ていくよ。</p>
+      <ul>
+        <li>なぜ今、そこが詰まったのか</li>
+        <li>お金・仕事・健康・家族・縁をつないでいる根っこ</li>
+        <li>あなたが本来持っている流れ</li>
+        <li>魂のブレーキになってるもの</li>
+        <li>これから1年の運気の流れ</li>
+        <li>どの順番で整えるか、今やるべきこと</li>
+        <li>あなたに向けた、いっしーからのメッセージ</li>
+      </ul>
+      <p>悩みがいくつも重なってる人や、同じところで何度も立ち止まってきた自覚がある人は、こっちの方が深く整理しやすい流れが出てるよ。</p>
+      <a class="pbtn" href="https://pmsdqb4c2p0emj0yagvc.stores.jp/items/692a8a45580447535785f29e" target="_blank" rel="noopener">本鑑定を受け取る<span class="s">限定料金 9,999円</span></a>
+    </div>
+
+    <div class="whisper rv">
+      高い方を選べば良い、<br>ってことじゃないよ。<br>今の自分に必要な深さで、大丈夫。
+    </div>
+
+    <div class="quote stag">
+      <p>鑑定は、1人ずつ<br>視ていくよ。</p>
+      <p>受けられる数には、<br>限りがあるんだ。</p>
+    </div>
+
+    <div class="linebox rv">
+      <div class="lh">どっちにするか迷ったら</div>
+      <p>今の状況を、そのままLINEに送って。<br>どっちが合うか、私から返事するよ。</p>
+      <div class="ls">お支払いで止まった時も、同じくLINEへ</div>
+    </div>
+
+    <!-- IMG差し替え⑥：LINE相談の前に置くワイド画像（16:10） -->
+    <div class="ph wide px rv-s">
+      <img src="img/hands_01.jpg" alt="あたたかい飲み物と手元" loading="lazy" decoding="async" onerror="this.closest('.ph,.ph-full,.thumb,.shot,.hero-person')?.style.setProperty('display','none')">
+      <div class="cap">迷ったら、そのままLINEに</div>
+    </div>
+  </div>
+</section>
+
+<div class="band" aria-hidden="true"></div>
+
+<!-- ============ VI 受け取りまでの流れ（明） ============ -->
+<section class="s-light">
+  <div class="wrap">
+    <div class="chapno">VI</div>
+    <div class="eyebrow lat">The flow</div>
+    <h2 class="lines"><span class="ln">受け取るまでの流れ</span></h2>
+    <div class="gline"></div>
+
+    <div class="steps stag">
+      <div class="st">
+        <span class="when">お申し込み</span>
+        <h4>購入してね</h4>
+        <p>お名前と、購入画面のスクリーンショットをLINEに送って。ここで一度、私が確認するよ。</p>
+      </div>
+      <div class="st">
+        <span class="when">確認がとれたら</span>
+        <h4>2回目の質問を送るよ</h4>
+        <p>ここが、いちばん大事なところ。<br>今いちばん辛い瞬間。口に出せずにいること。夜にふっと浮かぶ心配事。<br>お金のことでも、体のことでも、家族のことでも、人のことでも、どこから書いてもいいよ。<br>上手に書こうとしなくて大丈夫。思いついたままの言葉でいいからね。</p>
+      </div>
+      <div class="st">
+        <span class="when">返事をもらってから</span>
+        <h4>その言葉ごと、深く視るよ</h4>
+        <p>もらった言葉を1つずつ受け取りながら、なぜ今この流れが来てるのか、悩みがどうつながってるのかを視ていくね。<br>ここに時間をかけたいから、<strong>2〜3日</strong>もらってるよ。</p>
+      </div>
+      <div class="st">
+        <span class="when">仕上がったら</span>
+        <h4>本格鑑定書を届けるよ</h4>
+        <p>読み終えたあとに、そのまま置いておける長さで書くね。何度でも読み返して。</p>
+      </div>
+    </div>
+
+    <div class="whisper rv">
+      申し込んで、はい終わり、じゃないよ。<br>
+      あなたの言葉を聞いてから、書きはじめるからね。
+    </div>
+
+    <a class="cta rv" href="#item">
+      <span class="arrow">▼</span>
+      <span class="btn">鑑定を選ぶ</span>
+      <span class="sub">▶ 3日間限定 4,980円 / 9,999円</span>
+    </a>
+  </div>
+</section>
+
+<div class="wrap"><div class="growline"></div></div>
+
+<!-- ============ VII 声（明） ============ -->
+<section class="s-light">
+  <div class="wrap">
+    <div class="chapno">VII</div>
+    <div class="eyebrow lat">Voices</div>
+    <h2 class="lines"><span class="ln">受け取った人たちのこと</span></h2>
+    <div class="gline"></div>
+
+    <div class="rv"><p class="tc">届いたLINEを、そのまま載せるね。</p></div>
+
+    <figure class="shot rv"><img src="img/voices/k_01.png" alt="受け取った人の感想" loading="lazy" decoding="async"></figure>
+    <figure class="shot rv"><img src="img/voices/k_02.png" alt="受け取った人の感想" loading="lazy" decoding="async"></figure>
+    <figure class="shot rv"><img src="img/voices/k_03.png" alt="受け取った人の感想" loading="lazy" decoding="async"></figure>
+
+    <a class="minicta rv" href="#item">私も、視てもらう<span class="s">2つの鑑定から選ぶ</span></a>
+
+    <figure class="shot rv"><img src="img/voices/k_04.png" alt="受け取った人の感想" loading="lazy" decoding="async"></figure>
+    <figure class="shot rv"><img src="img/voices/k_05.png" alt="受け取った人の感想" loading="lazy" decoding="async"></figure>
+
+    <a class="minicta rv" href="#item">鑑定を選ぶ<span class="s">羅針の章 4,980円 / 本鑑定 9,999円</span></a>
+  </div>
+</section>
+
+<!-- ============ VIII 来ないでほしい人 ============ -->
+<section class="s-ai-r">
+  <div class="wrap">
+    <div class="warn stag">
+      <div class="eyebrow lat">Please do not</div>
+      <h3>申し込まないでほしい人が、<br>いるんだ</h3>
+      <p>今、生活がぎりぎりで、このお金を出すために、返済や治療費、家族の生活費を削らなきゃいけない人。</p>
+      <p><strong>今回は、見送って。</strong></p>
+      <p>無理をして受けるものじゃないよ。家族と相談する時間が必要な人も、どうか急がないでね。</p>
+      <p>無料鑑定で伝えたことを、何度でも読み返してね。<br>そこに書いたことは、本当のことだから。</p>
+      <p>状況が変わった時に、また来てくれたらいい。<br><strong>その時、私はここにいるよ。</strong></p>
+    </div>
+
+    <div class="big rv-b" style="margin-top:46px">暮らしを壊さずに<br>来られる人へ。</div>
+    <a class="minicta rv" href="#item">限定料金のうちに、鑑定を選ぶ<span class="s">3日間を過ぎると通常料金に戻るよ</span></a>
+  </div>
+</section>
+
+<!-- ============ IX FAQ ============ -->
+<section class="s-dark">
+  <div class="wrap">
+    <div class="chapno">IX</div>
+    <div class="eyebrow lat">Questions</div>
+    <h2 class="sm lines"><span class="ln">よくある質問</span></h2>
+    <div class="gline"></div>
+
+    <div class="stag">
+      <details class="faq"><summary>悩みがいくつもあって、ひとつに絞れない。</summary>
+        <div class="ans">絞らなくて大丈夫。むしろ、いくつも重なってる人のための鑑定なんだ。お金も、仕事も、体も、家族も、人との縁も、ぜんぶ同じ流れの中でつながってるから、まるごと視るよ。思いつくまま、全部書いてね。</div>
+      </details>
+      <details class="faq"><summary>怖いこと言われない？</summary>
+        <div class="ans">言わないよ。私は、怖がらせて動かす鑑定はしない。ただ、見ないままだと同じことを繰り返しやすい部分については、正直に伝えるね。</div>
+      </details>
+      <details class="faq"><summary>当たってなかったらどうしよう、と思っちゃう。</summary>
+        <div class="ans">鑑定は、当てものじゃないんだ。読んだ時に「ざわっとした場所」を、あなた自身が見つけるためのもの。ひとつでも心に残る場所があれば、それが今のあなたに必要なところだよ。</div>
+      </details>
+      <details class="faq"><summary>羅針の章と本鑑定、どっちを選べばいい？</summary>
+        <div class="ans">今のしんどさをまず軽くしたい人は、羅針の章を。悩みがいくつも重なってる人、同じことを何度も繰り返してる自覚がある人、根っこから整えたい人は、本鑑定をおすすめしてるよ。</div>
+      </details>
+      <details class="faq"><summary>家族に知られない？</summary>
+        <div class="ans">知られないよ。鑑定書はこのLINEにだけ届く。郵送物も、家に届くものも一切なし。読む時間も場所も、あなたが決めて。</div>
+      </details>
+      <details class="faq"><summary>どれくらいで届く？</summary>
+        <div class="ans">申し込みのあと、鑑定前に聞かせてほしいことをLINEで送るよ。返事をもらってから、2〜3日ほどで仕上げて届けるね。</div>
+      </details>
+      <details class="faq"><summary>3日間を過ぎたら、もう受けられない？</summary>
+        <div class="ans">受けられるよ。ただし通常料金に戻る。無料鑑定を受け取った直後がいちばん心が動いてる時だから、この料金は3日間だけにしてるんだ。</div>
+      </details>
+      <details class="faq"><summary>質問にうまく答えられる自信がない。</summary>
+        <div class="ans">大丈夫。長く書かなくていいよ。思いついたままの言葉で送って。</div>
+      </details>
+      <details class="faq"><summary>あとから何か買わなきゃいけない？</summary>
+        <div class="ans">鑑定書の中で、石や道具を買うようにお願いすることはないよ。鑑定そのものに、追加の費用もかからないから安心してね。</div>
+      </details>
+      <details class="faq"><summary>お支払いがうまくいかない。</summary>
+        <div class="ans">よくあることだから、気にしないで。エラーが出た、途中で止まった、どの方法がいいかわからない。そのままLINEに送って。一緒に手順を確認するよ。</div>
+      </details>
+    </div>
+
+    <a class="minicta rv" href="#item">鑑定を申し込む<span class="s">羅針の章 / いっしーの本鑑定</span></a>
+  </div>
+</section>
+
+<!-- ============ X 追伸 ============ -->
+<section class="s-ai">
+  <div class="wrap">
+    <div class="chapno">X</div>
+    <div class="eyebrow lat">From Isshi</div>
+    <h2 class="lines"><span class="ln">最後に</span></h2>
+    <div class="gline"></div>
+
+    <!-- IMG差し替え⑦：いっしーのポートレート／イメージ（3:4 縦） -->
+    <div class="ph portrait rv-s">
+      <img src="img/i_hero.jpg" alt="いっしー" loading="lazy" decoding="async" onerror="this.closest('.ph,.ph-full,.thumb,.shot,.hero-person')?.style.setProperty('display','none')">
+    </div>
+
+    <div class="stag">
+      <p class="lead-p">私は、当てて驚かせる人じゃないよ。</p>
+      <p><strong>占いは、当てるものじゃなくて、あなたが自分を取り戻すためのもの。</strong></p>
+      <p>海外37カ国で占術修行を積んで、人を救う占いと、人を縛る占いがあるって気づいた。<br>だから、不安を煽って依存させる占いは、絶対にしないって決めてるんだ。</p>
+      <p>私も昔、大切にされない恋愛をくり返してた時期があるよ。<br>だから、ひとりで抱えて頑張る辛さが、他人事じゃない。</p>
+      <p>お金も、仕事も、体も、家族も、人との縁も。<br>ぜんぶつながってるから、<span class="ew">どこか1つを責めなくていいんだよ。</span></p>
+      <p>無料鑑定は、入り口。<br>そこで視えたものの<span class="ew">奥</span>が、まだ残ってる。</p>
+      <p>あなたがここまで来たこと自体に、意味があるよ。</p>
+    </div>
+
+    <div class="whisper rv">金額の話じゃなくて、<br>お金も、仕事も、体も、家族も、人との縁も、<br>ひとりで抱えてきた毎日を、一度ほどきたい人の話だよ。</div>
+
+    <div class="peak rv">
+      <div class="l1">急がなくていいよ。<br>でも、</div>
+      <div class="l2">見にいくのは、<br><em>今日でいい。</em></div>
+      <div class="l3">限定料金の残り時間は、<br>ページ上部に表示してるよ。</div>
+    </div>
+
+    <div class="sign rv">いっしー</div>
+
+    <a class="cta rv" href="#item">
+      <span class="arrow">▼</span>
+      <span class="btn">本鑑定を受け取る</span>
+      <span class="sub">▶ 2つの鑑定から選ぶ</span>
+      <span class="micro">3日間限定料金・お申し込みは1分</span>
+    </a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>海外37カ国で占術修行を積んだ、いっしー</p>
+    <p style="margin-top:20px"><a href="https://pmsdqb4c2p0emj0yagvc.stores.jp/tokushoho" target="_blank" rel="noopener">特定商取引法に基づく表記</a></p>
+    <p class="lat" style="margin-top:22px;font-size:10px;letter-spacing:.4em">ISSHI</p>
+  </div>
+</footer>
+
+<div class="sticky" id="sticky">
+  <span class="lab"><span class="hot">残りわずか</span>限定料金<span class="cdmini"></span></span>
+  <div class="row">
+    <div class="pricebox"><div class="p">4,980<small>円〜</small></div><div class="n">羅針の章 / 本鑑定</div></div>
+    <a href="#item">鑑定を選ぶ</a>
+  </div>
+</div>
+
+<script src="assets/lp.js?v=202609102219"></script>
+<script src="assets/track-config.js?v=202609252005"></script>
+<script src="assets/track.js?v=202609252005"></script>
+</body>
+</html>
